@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:pinterest_ui/view/add_screen/add_screen.dart';
 import 'package:pinterest_ui/view/home_screen/browse_screen.dart';
 import 'package:pinterest_ui/view/home_screen/home_screen.dart';
 import 'package:pinterest_ui/view/home_screen/watch_screen.dart';
+import 'package:pinterest_ui/view/notification_screen/notification_screen.dart';
 import 'package:pinterest_ui/view/search_screen/search_screen.dart';
 
 class NavigationScreen extends StatefulWidget {
@@ -15,7 +17,9 @@ class _NavigationScreenState extends State<NavigationScreen> {
   int selectedIndex=0;
   List<Widget>MyWidgetList=[
    HomeScreen(),
-    SearchScreen()
+    SearchScreen(),
+    AddScreen(),
+    NotificationScreen(),
 
     
    
