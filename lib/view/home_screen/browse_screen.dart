@@ -17,7 +17,8 @@ class BrowseScreen extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
-        crossAxisCount: 2
+        crossAxisCount: 2,
+        mainAxisExtent: 300
         ),
          itemBuilder: (context, index) => Container(
           decoration: BoxDecoration(image: DecorationImage(image: AssetImage(MyPinterest.ImageList[index]),fit: BoxFit.cover

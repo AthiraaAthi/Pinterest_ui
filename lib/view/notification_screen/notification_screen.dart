@@ -12,6 +12,7 @@ class NotificationScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
+          backgroundColor: Colors.black,
           bottom: TabBar(
             
             indicatorColor: Colors.white,

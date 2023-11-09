@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pinterest_ui/main.dart';
+
 
 
 
@@ -9,7 +11,7 @@ class WatchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-     
+      
     );
    
   }

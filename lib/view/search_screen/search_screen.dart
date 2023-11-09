@@ -31,13 +31,13 @@ class SearchScreen extends StatelessWidget {
                     image:AssetImage(myList[index]),
                     fit: BoxFit.cover )
                     ),
-
+            
                 ), options:CarouselOptions(autoPlay: true,scrollDirection: Axis.horizontal,viewportFraction: 1)
                 ),
-
-
-
-
+            
+            
+            
+            
                
                 Container(
                   decoration: BoxDecoration(
@@ -86,8 +86,11 @@ class SearchScreen extends StatelessWidget {
                                     
                                     backgroundColor: Colors.amber,radius: 30.0,),
                                 ],
+                      
                               ),
-                            ),
+                      
+                            )
+                      ,
                             
                         ),
                         SizedBox(width: 10,),
@@ -144,9 +147,9 @@ class SearchScreen extends StatelessWidget {
                             ),
                             
                         ),
-
+            
                          SizedBox(width: 10,),
-
+            
                        Container(
                         
                         
@@ -171,12 +174,18 @@ class SearchScreen extends StatelessWidget {
                           ),
                           
                       ),
-
+            
                   
                       ],
                     ),
+                  )
                   ),
-                ),
+
+
+             
+
+
+
                 SizedBox(height: 10,),
                 Center(
                   child: Text(
@@ -211,8 +220,8 @@ class SearchScreen extends StatelessWidget {
                             
                           ),
                           SizedBox(width: 10,),
-
-
+            
+            
                           Container(
                             height: 100,
                             width: 180,
@@ -234,10 +243,10 @@ class SearchScreen extends StatelessWidget {
                             
                           ),
                         ],
-
+            
                       ),
-
-
+            
+            
                        SizedBox(height: 10,),
                 Center(
                   child: Text(
@@ -249,7 +258,7 @@ class SearchScreen extends StatelessWidget {
                       ),
                       ),
                       SizedBox(height: 10,),//search screen wid create chytht container create chynm
-
+            
                     Row(
                         children: [
                           Container(
@@ -273,8 +282,8 @@ class SearchScreen extends StatelessWidget {
                             
                           ),
                           SizedBox(width: 10,),
-
-
+            
+            
                           Container(
                             height: 100,
                             width: 180,
@@ -296,10 +305,10 @@ class SearchScreen extends StatelessWidget {
                             
                           ),
                         ],
-
+            
                       ),
                       SizedBox(height: 10,),
-
+            
                       Row(
                         children: [
                           Container(
@@ -324,7 +333,7 @@ class SearchScreen extends StatelessWidget {
                               ),
                        
                           SizedBox(width: 10,),
-
+            
                       Container(
                             height: 100,
                             width: 180,
@@ -347,9 +356,9 @@ class SearchScreen extends StatelessWidget {
                           ),
                            ],
                       ),
-
+            
                       SizedBox(height: 10,),
-
+            
                       Row(
                         children: [
                           Container(
@@ -374,7 +383,7 @@ class SearchScreen extends StatelessWidget {
                               ),
                        
                           SizedBox(width: 10,),
-
+            
                       Container(
                             height: 100,
                             width: 180,
@@ -397,19 +406,19 @@ class SearchScreen extends StatelessWidget {
                           ),
                            ],
                       ),
-
-
-
+            
+            
+            
                      
                       
-
+            
                       
-  
+            
               ],
             ),
           ),
         ),
-      ) ,
-    );
+      ),
+   );
   }
 }
