@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pinterest_ui/utils/color_constant/color_constant.dart';
+import 'package:pinterest_ui/view/add_screen/add_screen.dart';
 
-import 'package:pinterest_ui/view/home_screen/browse_screen.dart';
+
 import 'package:pinterest_ui/view/home_screen/home_screen.dart';
-import 'package:pinterest_ui/view/home_screen/watch_screen.dart';
-import 'package:pinterest_ui/view/notification_screen/inbox_screen.dart';
+
+
 import 'package:pinterest_ui/view/notification_screen/notification_screen.dart';
 import 'package:pinterest_ui/view/profile_screen/profile_screen.dart';
 import 'package:pinterest_ui/view/search_screen/search_screen.dart';
@@ -21,8 +22,8 @@ class _NavigationScreenState extends State<NavigationScreen> {
   List<Widget>MyWidgetList=[
    HomeScreen(),
     SearchScreen(),
-   
-    NotificationScreen(),
+    AddScreen(),
+   NotificationScreen(),
     ProfileScreen()
     
 
