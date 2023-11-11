@@ -6,6 +6,7 @@ import 'package:pinterest_ui/view/add_screen/add_screen.dart';
 import 'package:pinterest_ui/view/home_screen/home_screen.dart';
 
 
+
 import 'package:pinterest_ui/view/notification_screen/notification_screen.dart';
 import 'package:pinterest_ui/view/profile_screen/profile_screen.dart';
 import 'package:pinterest_ui/view/search_screen/search_screen.dart';
@@ -24,7 +25,9 @@ class _NavigationScreenState extends State<NavigationScreen> {
     SearchScreen(),
     AddScreen(),
    NotificationScreen(),
-    ProfileScreen()
+    ProfileScreen(),
+   
+    
     
 
     
@@ -87,6 +90,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
             child: Icon(Icons.add)),label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.message_rounded),label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.account_circle),label: ""),
+         
 
       ]),
     );

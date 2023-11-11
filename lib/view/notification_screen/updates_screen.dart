@@ -52,49 +52,53 @@ class UpdatesScreen extends StatelessWidget {
               SizedBox(height: 10,),
               Row(
                 children: [
-                  Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(
-                                  image: AssetImage(Popular.Popular2),fit: BoxFit.cover),
+                  Expanded( /////
+                    child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(
+                                    image: AssetImage(Popular.Popular2),fit: BoxFit.cover),
+                                  
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Series",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
                                 
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Series",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
-                            ),
+                              ),
+                  ),
         
-                            Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(Ideas.Ideas2),fit: BoxFit.cover),
-                               
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Adventure ",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
+                            Expanded(//////////////////
+                              child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(Ideas.Ideas2),fit: BoxFit.cover),
+                                 
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Adventure ",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
+                                
+                              ),
                             ),
                 ],
               ),
@@ -103,48 +107,52 @@ class UpdatesScreen extends StatelessWidget {
         
               Row(
                 children: [
-                  Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(ContainerImage.Natural2),fit: BoxFit.cover),
+                  Expanded(/////////////////////////
+                    child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(ContainerImage.Natural2),fit: BoxFit.cover),
+                                  
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Natural",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
                                 
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Natural",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
-                            ),
+                              ),
+                  ),
         
-                            Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(Carousal.Diwali2),fit: BoxFit.cover),
-                               
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "diwali",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
+                            Expanded(///////////////////
+                              child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(Carousal.Diwali2),fit: BoxFit.cover),
+                                 
+                                  color: Colors.amber 
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "diwali",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
+                                
+                              ),
                             ),
               
                 ],
@@ -283,49 +291,53 @@ class UpdatesScreen extends StatelessWidget {
               SizedBox(height: 10,),
               Row(
                 children: [
-                  Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(
-                                  image: AssetImage(Popular.Popular1),fit: BoxFit.cover),
+                  Expanded(/////////////////
+                    child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(
+                                    image: AssetImage(Popular.Popular1),fit: BoxFit.cover),
+                                  
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Series",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
                                 
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Series",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
-                            ),
+                              ),
+                  ),
         
-                            Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(Ideas.Ideas2),fit: BoxFit.cover),
-                               
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Adventure ",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
+                            Expanded(///////////
+                              child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(Ideas.Ideas2),fit: BoxFit.cover),
+                                 
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Adventure ",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
+                                
+                              ),
                             ),
                 ],
               ),
@@ -334,48 +346,52 @@ class UpdatesScreen extends StatelessWidget {
         
               Row(
                 children: [
-                  Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(ContainerImage.Natural2),fit: BoxFit.cover),
+                  Expanded(////////////////
+                    child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(ContainerImage.Natural2),fit: BoxFit.cover),
+                                  
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Natural",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
                                 
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "Natural",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
-                            ),
+                              ),
+                  ),
         
-                            Container(
-                              height: 100,
-                              width: 180,
-                              decoration: BoxDecoration(
-                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(image: AssetImage(Carousal.Diwali2),fit: BoxFit.cover),
-                               
-                                color: Colors.amber
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "diwali",
-                                  style: TextStyle(
-                                    color:  ColorConstant.PinterestWhite,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20
-                                    ),
-                                    ),
-                                ),
-                              
+                            Expanded(////////////
+                              child: Container(
+                                height: 100,
+                                width: 180,
+                                decoration: BoxDecoration(
+                                   borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(image: AssetImage(Carousal.Diwali2),fit: BoxFit.cover),
+                                 
+                                  color: Colors.amber
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "diwali",
+                                    style: TextStyle(
+                                      color:  ColorConstant.PinterestWhite,
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 20
+                                      ),
+                                      ),
+                                  ),
+                                
+                              ),
                             ),
               
                 ],
